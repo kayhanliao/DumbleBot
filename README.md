@@ -20,21 +20,21 @@ Here's a preview of a the webapp in action
 
 1. Clone the repository
 ```
-git clone https://github.com/kayhanliao/DumbleBot.git
-cd DumbleBot
+$ git clone https://github.com/kayhanliao/DumbleBot.git
+$ cd DumbleBot
 ```
 2. Create and activateenviroment (optional, but you really should). I prefer using conda, however virtualenv should work fine. 
 ```
-conda create --name myenv 
-conda activate myenv
+$ conda create --name myenv 
+$ conda activate myenv
 ```
 3. Install dependencies
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 4. Run in deevelopment server to demo
 ```
-python app.py
+$ python app.py
 ```
 5. Navigate to [http://localhost:5000](http://localhost:5000)
 
