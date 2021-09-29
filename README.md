@@ -14,7 +14,7 @@ DumbleBot is a personal project I decided pursue in my spare time with the purpo
 ## Screenshots 
 wip
 ![Screen Shot 2021-09-29 at 13 57 15](https://user-images.githubusercontent.com/42952515/135255648-fd7e82b1-a643-462f-ac8a-eb41965dd5c5.png)
-![Screen Shot 2021-09-29 at 21.05.05](https://user-images.githubusercontent.com/42952515/135324554-b090a151-4459-4156-b6c8-d4106f3617f4.png)
+![Screen Shot 2021-09-29 at 21 08 08](https://user-images.githubusercontent.com/42952515/135324788-509fabf8-15a1-4681-b48f-6fd0cf3a2a4a.png)
 
 ## Quick Setup 
  
