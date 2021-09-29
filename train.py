@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 
 
-with open('intents_dumbledore.json') as file:
+with open('model/intents_dumbledore.json') as file:
 # with open('intents.json') as file:
     data = json.load(file)
     
@@ -29,9 +29,8 @@ for intent in data['intents']:
     
     if intent['tag'] not in labels:
         labels.append(intent['tag'])
-        
-num_classes = len(labels)
 
+num_classes = len(labels)
 
 lbl_encoder = LabelEncoder()
 lbl_encoder.fit(training_labels)
@@ -65,12 +64,15 @@ history = model.fit(padded_sequences, np.array(training_labels), epochs=epochs)
 
 
 # to save the trained model
-model.save("chat_model")
+model.save("model/chat_model")
 
 # to save the fitted tokenizer
-with open('tokenizer.pickle', 'wb') as handle:
+with open('model/tokenizer.pickle', 'wb') as handle:
     pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
     
 # to save the fitted label encoder
-with open('label_encoder.pickle', 'wb') as ecn_file:
+with open('model/label_encoder.pickle', 'wb') as ecn_file:
     pickle.dump(lbl_encoder, ecn_file, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+
