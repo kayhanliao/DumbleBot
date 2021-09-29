@@ -40,9 +40,9 @@ python app.py
 
 ## To-Do
 wip
-1 - Develop UI
-2 - Improve training data
-3 - Add customizable username text (Dumbledore will refer to user by their selected name)
-4 - Dockerize and deploy on personal server or Heroku
+1. Develop UI
+2. Improve training data
+3. Add customizable username text (Dumbledore will refer to user by their selected name)
+4. Dockerize and deploy on personal server or Heroku
 
 ## Blog post
