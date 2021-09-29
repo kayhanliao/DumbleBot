@@ -20,7 +20,7 @@ lemmatizer = WordNetLemmatizer()
 with open("model/intents_dumbledore.json") as file:
     data = json.load(file)
 
-model = keras.models.load_model('chat_model')
+model = keras.models.load_model('model/chat_model')
 
 # load tokenizer object
 with open('model/tokenizer.pickle', 'rb') as handle:
