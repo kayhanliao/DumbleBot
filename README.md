@@ -1,4 +1,4 @@
-# DumbleBot Work in Progress
+# DumbleBot
  Dumbledore AI Chatbot
 
 ## Description
