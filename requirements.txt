@@ -1,7 +1,6 @@
-nltk==3.6.3
-numpy==1.19.5
 Flask==2.0.1
+numpy==1.19.5
 flask_ngrok==0.0.25
-tensorflow==2.6.0
+tensorflow-cpu==2.0.0
 keras==2.6.0
-scikit_learn==1.0
+nltk==3.6.3
