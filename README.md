@@ -2,7 +2,8 @@
  Dumbledore AI Chatbot
 
 ## Description
-DumbleBot is a deep learning chatbot that utilizes a sequential model from Keras to imitate a conversation with Albus Dumbledore from the Harry Potter series. 
+DumbleBot is a deep learning chatbot that utilizes a sequential model from Keras to imitate a conversation with Albus Dumbledore from the Harry Potter series. Dumblebot aims to give helpful advice and performans best when asked questions about "feeling upset" and "motivational advice". Responses are quotes from the movie series, either direct ones or ones with slight variations. Please note that this is a work in progress and there may be some inconsistencies and bugs. Also, I apologize for the "lackluster" UI.
+
 The repository includes 
  - the Jupyter Notebook used data collection along with all used and unused training data
  - the final model used 
