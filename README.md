@@ -50,5 +50,6 @@ $ python app.py
 4. Dockerize and deploy on personal server instead of on Heroku
 
 ## Blog post
+You can find my blog post that goes more in-depth about what went into doing this project.
 
-coming soon
+https://blog.kayhanliao.com/2021/10/02/dumblebot-a-dumbledore-deep-learning-chatbot/
