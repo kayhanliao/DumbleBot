@@ -7,6 +7,7 @@ from flask_ngrok import run_with_ngrok
 import nltk
 from keras.models import load_model
 import keras 
+from keras.utils import pad_sequences
 from nltk.stem import WordNetLemmatizer
 
 #----------------------------------------
@@ -48,7 +49,7 @@ def chatbot_response():
 
 def getResponse(msg):
     max_len = 20
-    result = model.predict(keras.preprocessing.sequence.pad_sequences(tokenizer.texts_to_sequences([msg]),
+    result = model.predict(pad_sequences(tokenizer.texts_to_sequences([msg]),
                                              truncating='post', maxlen=max_len))
     tag = lbl_encoder.inverse_transform([np.argmax(result)])
 
