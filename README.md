@@ -16,7 +16,9 @@ DumbleBot is a personal project I decided pursue in my spare time with the purpo
 ## Deployed and Hosted on Heroku
 I opted to use Heroku for my webapp because of it's quick setup and it's easy to manage CLI. However, there are some drawbacks such as size limit and performance issues. But as a preliminary no cost option, Heroku definitely fufills all my needs. 
 
+(DEPCRATED as of Jan 28, 2023)
 You can view my work in progress at https://dumblechatbot.herokuapp.com
+Note: In order to focus on my graduate studies, I've halted development on this project)
 
 ## Screenshots 
 Here's a preview of a the webapp in action
